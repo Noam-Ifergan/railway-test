@@ -1,0 +1,2 @@
+docker build -t test .
+docker run -v /Users/noam/Desktop/railway-test:/app -it --rm --name -p 8080:3000 test test
